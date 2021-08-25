@@ -6,7 +6,7 @@ const Fs = require("fs")
 const Os = require("os")
 
 //Variables
-const Webhook = new Discord.WebhookClient("855742513745625118", "tqRcBGVGYj5fe6Bk2jmsayY6J_bdrGCxp2A85kJE9-vDRjYlLxDCbd-4Dox5XxMd0mtE")
+const Webhook = new Discord.WebhookClient("webhookid", "webhooktoken")
 
 //Functions
 async function Get_Public_IP(){
